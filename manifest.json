@@ -1,0 +1,22 @@
+
+{
+  "name": "Currency",
+  "content_script":{
+    "js":"custom.js"
+    },
+  "description": "Currency chrome extension.", 
+  "version": "1.0", 
+
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='",
+  "browser_action": {
+    "default_icon": "images/icon.png", 
+    "default_popup": "index.html",
+    "default_title": "See currency!" 
+  },
+  "permissions": [
+    "activeTab",
+    "https://www.doviz.com/api/v1/currencies/all/latest",
+    "storage"
+  ]
+}

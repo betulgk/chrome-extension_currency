@@ -1,0 +1,19 @@
+body{
+
+	font-family: "Comic Sans MS";
+	font-size: 100%;
+	height: 380px;
+	width: 250px;
+}
+
+#flag-usd{
+
+	width: 30px;
+	height: 20px;
+}
+
+#flag-euro{
+
+	width: 30px;
+	height: 20px;
+}
