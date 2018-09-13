@@ -17,3 +17,9 @@ body{
 	width: 30px;
 	height: 20px;
 }
+
+#selling-usd, #buying-usd,
+#selling-euro, #buying-euro{
+
+	text-align: center;
+}

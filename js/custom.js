@@ -11,4 +11,8 @@ function func(){
 		document.getElementById("buying-euro").innerHTML = result[1]['buying'];	 /*EURO*/
 
 	})
+	let old_dollar = result[0]['selling'];
+	console.log("------------");
+	console.log(old_dollar);	
 }
+
